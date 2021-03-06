@@ -1,6 +1,5 @@
 cdr=$(pwd)
-name=$1
-if [ $name != '' ]
+if [ $1 != '' ]
 then
 	cd $cdr
 	echo "# settings" >> README.md
